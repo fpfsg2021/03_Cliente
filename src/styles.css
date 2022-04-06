@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+#contenedor {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    border: 20px;
+    border-style: dotted none dotted none;
+    border-color: pink;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(29, 176, 29);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav button {
+    padding: 10px;
+    margin-right: 80px;
+}
+
+footer {
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 10em;
+}
+
+main {
+    width: 1000px;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Ajusta con espacio entre fichas */
+}
+
+.card {
+    flex: 0 1 25%;
+    /* 0-flex-grow (crece) 1-flex-shrink (encoge) flex-basics (tamaño) */
+    margin-bottom: 10px;
+    margin-right: 2px;
+    padding: 15px;
+    box-shadow: 2px 2px rgba(100, 100, 100, 0.5);
+}
+.card img {
+    width: 100%;
+}
+.nombre-producto {
+    width: 100%;
+    text-align: center;
+}
+.precio-producto {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
